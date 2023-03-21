@@ -12,14 +12,11 @@ public class Main {
 		documento.setTitulo("patrones de diseño");
 		documento.setSubTitulo("patrones de diseño de GoF");
 		documento.setTexto("patrones de diseño de GoF explicación");
-		TipoDocumento tipoDocumento = new DocumentoPdf();
-		documento.setTipoDocumento(tipoDocumento);
+		documento.setTipoDocumento(new DocumentoPdf());
 		documento.exportar();
-		tipoDocumento = new DocumentoTxt();
-		documento.setTipoDocumento(tipoDocumento);
+		documento.setTipoDocumento(new DocumentoTxt());
 		documento.exportar();
-		tipoDocumento = new DocumentoWord();
-		documento.setTipoDocumento(tipoDocumento);
+		documento.setTipoDocumento(new DocumentoWord());
 		documento.exportar();
 	}
 
