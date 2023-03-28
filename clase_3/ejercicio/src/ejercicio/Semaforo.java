@@ -3,6 +3,10 @@ package ejercicio;
 public class Semaforo {
 	private Color color;
 	
+	public Semaforo() {
+		color = new Apagado();
+	}
+	
 	public Color getColor() {
 		return color;
 	}
