@@ -10,14 +10,14 @@ public class Main {
 		dir.addObservador(musicoDeViento);
 		dir.addObservador(musicoDePercusion);
 		dir.notificar();
-		dir.setManoDerLevantada(true);
-		dir.setManoIzqLevantada(false);
-		dir.notificar();
+		dir.setManoIzqLevantada(true);
 		dir.setManoDerLevantada(false);
-		dir.setManoIzqLevantada(true);
 		dir.notificar();
+		dir.setManoIzqLevantada(false);
 		dir.setManoDerLevantada(true);
+		dir.notificar();
 		dir.setManoIzqLevantada(true);
+		dir.setManoDerLevantada(true);
 		dir.notificar();
 	}
 }
