@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/dev/up/dds/diseno_de_sistemas/ejemplos_en_clase/clase_8/ejercicio/h2/h2-2.1.214.jar"/>
+	<classpathentry kind="lib" path="C:/dev/up/dds/diseno_de_sistemas/ejemplos_en_clase/clase_9_proxy_v1/ejercicio/h2/h2-2.1.214.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

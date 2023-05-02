@@ -15,7 +15,7 @@ public class InstitucionEducativa {
         Connection conn = null;
         ArrayList<Carrera> carreras = new ArrayList<Carrera>();
         try {
-            System.out.println("Llendo a buscar datos a la base de datos...");
+            System.out.println("Yendo a buscar datos a la base de datos...");
             Class.forName("org.h2.Driver");
             conn = DriverManager.getConnection("jdbc:h2:~/test;AUTO_SERVER=TRUE", "sa", "");
             Statement sentencia = conn.createStatement();
